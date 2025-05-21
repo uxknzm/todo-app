@@ -1,0 +1,18 @@
+.todo-manager-container {
+    padding: 4px 12px;
+    border-top: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.todo-manager-count {
+    font-size: 14px;
+}
+
+.todo-manager-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
