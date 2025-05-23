@@ -13,7 +13,7 @@ const TodoItem: FC<TodoItemProps> = ({ completed, title, id }) => {
     }, [id])
 
     const handleClickCheckbox = useCallback((event: React.ChangeEvent<HTMLInputElement>) => {
-        event.preventDefault()
+        event.stopPropagation()
         toggleTodo(id)
     }, [id])
 
